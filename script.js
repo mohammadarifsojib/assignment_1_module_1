@@ -11,7 +11,7 @@
         }
 
         if(!isNaN(location) && location.length > 0 ){
-            message('Error!', 'error', 'Number not allow in city name!', 'Ok')
+            message('Error!', 'error', 'Only number not allow in city name!', 'Ok')
               return false
         }
 
