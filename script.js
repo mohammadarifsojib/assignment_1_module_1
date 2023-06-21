@@ -21,7 +21,7 @@
         }
         Swal.fire({
             title: 'Please Wait !',
-            html: 'data uploading',// add html attribute if you want or remove
+            html: 'Loading Data....',// add html attribute if you want or remove
             allowOutsideClick: false,
             onBeforeOpen: () => {
                 Swal.showLoading()
